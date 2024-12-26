@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.1
         }
       },
       "diff_pair_dimensions": [],
@@ -588,6 +588,10 @@
     [
       "0e6bd330-0f50-4179-a020-5d79ad9fb957",
       "ethernet"
+    ],
+    [
+      "c630627c-1935-4d24-8774-1650507bc0db",
+      "tof"
     ]
   ],
   "text_variables": {}

@@ -3653,16 +3653,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 118.11) (xy 140.97 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02985e7e-2b4c-43f6-8a99-434ef2b098b2")
-	)
-	(wire
-		(pts
 			(xy 147.32 138.43) (xy 140.97 138.43)
 		)
 		(stroke
@@ -3793,6 +3783,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 97.79) (xy 140.97 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "275ce915-e935-4ab0-8982-6ad2c789ffbb")
+	)
+	(wire
+		(pts
 			(xy 190.5 58.42) (xy 189.23 58.42)
 		)
 		(stroke
@@ -3850,6 +3850,16 @@
 			(type default)
 		)
 		(uuid "337156a9-ecf6-477e-abec-0603d30a63e3")
+	)
+	(wire
+		(pts
+			(xy 157.48 85.09) (xy 140.97 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36d6fa25-1625-4771-8bed-eda4a40723e1")
 	)
 	(wire
 		(pts
@@ -3983,16 +3993,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 113.03) (xy 140.97 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e264f55-5c7b-4289-a2cc-f0c09c25bda1")
-	)
-	(wire
-		(pts
 			(xy 252.73 123.19) (xy 252.73 124.46)
 		)
 		(stroke
@@ -4080,16 +4080,6 @@
 			(type default)
 		)
 		(uuid "5e585493-b71f-48e7-a527-e112e3c9a6e2")
-	)
-	(wire
-		(pts
-			(xy 152.4 115.57) (xy 140.97 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fa2e6d9-3fd4-48e5-9af6-ca7ddcd700ca")
 	)
 	(wire
 		(pts
@@ -4190,6 +4180,16 @@
 			(type default)
 		)
 		(uuid "88011022-7d5f-42f5-b9a1-408b82dc38de")
+	)
+	(wire
+		(pts
+			(xy 151.13 110.49) (xy 140.97 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "880b32a4-0c3c-4862-934d-cda377203299")
 	)
 	(wire
 		(pts
@@ -4300,6 +4300,16 @@
 			(type default)
 		)
 		(uuid "9f178030-1dcb-496f-995c-1029928ef498")
+	)
+	(wire
+		(pts
+			(xy 157.48 82.55) (xy 140.97 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f24d59a-7846-4fea-b9fc-5746b9ac0546")
 	)
 	(wire
 		(pts
@@ -4590,6 +4600,16 @@
 			(type default)
 		)
 		(uuid "e7a1bd24-6264-4e84-a2ae-700c020cd580")
+	)
+	(wire
+		(pts
+			(xy 151.13 80.01) (xy 140.97 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e807b909-9426-4fe0-a8e0-0a9413b9c4ee")
 	)
 	(wire
 		(pts
@@ -4997,6 +5017,72 @@
 			)
 		)
 	)
+	(global_label "tof3"
+		(shape input)
+		(at 151.13 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "13a7f0dc-e47c-4229-9a8d-c83ab8c236bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.9251 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "tof2"
+		(shape input)
+		(at 157.48 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2b0959bb-c270-4fd7-8c73-6b239d6706d4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.2751 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "sda"
+		(shape input)
+		(at 151.13 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2cf407cb-1192-4fcd-916a-d76775980496")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.4413 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "eth_rst"
 		(shape input)
 		(at 149.86 133.35 0)
@@ -5041,6 +5127,28 @@
 			)
 		)
 	)
+	(global_label "tof1"
+		(shape input)
+		(at 157.48 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "348af97c-7892-4e8f-841f-b1292c5a11a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.2751 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "eth_int"
 		(shape input)
 		(at 149.86 135.89 0)
@@ -5076,6 +5184,28 @@
 		(uuid "55160ba5-2a97-4b29-8d77-c380ae2a4a5d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 158.6509 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "scl"
+		(shape input)
+		(at 151.13 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7183780c-2a76-44d0-bca4-beb8b98a8730")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.8971 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5147,72 +5277,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "eth_pmode0"
-		(shape input)
-		(at 152.4 118.11 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c54f9bee-a7c8-41df-bfe8-fb91cfa809f1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.7545 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "eth_pmode2"
-		(shape input)
-		(at 152.4 113.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c9fdb5f3-b9c1-451a-9178-a28ef0061364")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.7545 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "eth_pmode1"
-		(shape input)
-		(at 152.4 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ec91c27b-1af6-4c85-ba27-dcc6d0accff8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.7545 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -9278,6 +9342,44 @@
 			(project "carte_lidar"
 				(path "/8c7c486d-228e-4b66-b6d5-0b7cf34b4d2b"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 13.97 40.64)
+		(size 27.94 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c630627c-1935-4d24-8774-1650507bc0db")
+		(property "Sheetname" "tof"
+			(at 13.97 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "tof.kicad_sch"
+			(at 13.97 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "carte_lidar"
+				(path "/8c7c486d-228e-4b66-b6d5-0b7cf34b4d2b"
+					(page "5")
 				)
 			)
 		)
