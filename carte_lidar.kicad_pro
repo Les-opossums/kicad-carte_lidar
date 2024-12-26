@@ -584,6 +584,10 @@
     [
       "5cfb2dd4-2139-45de-9d20-4a120a5e9868",
       "USB"
+    ],
+    [
+      "0e6bd330-0f50-4179-a020-5d79ad9fb957",
+      "ethernet"
     ]
   ],
   "text_variables": {}

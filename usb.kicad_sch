@@ -5,7 +5,7 @@
 	(uuid "f72a3991-c79e-41ac-8db7-ba506a15aade")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:USB_C_Receptacle_USB2.0"
+		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
 			)
@@ -13,21 +13,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -10.16 19.05 0)
+				(at 0 22.225 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "USB_C_Receptacle_USB2.0"
-				(at 19.05 19.05 0)
+			(property "Value" "USB_C_Receptacle_USB2.0_16P"
+				(at 0 19.685 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
 			(property "Footprint" ""
@@ -48,7 +46,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB 2.0-only Type-C Receptacle connector"
+			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -75,7 +73,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_0_0"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_0"
 				(rectangle
 					(start -0.254 -17.78)
 					(end 0.254 -16.764)
@@ -187,7 +185,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_0_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -388,7 +386,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_1_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
 				(pin passive line
 					(at 0 -22.86 90)
 					(length 5.08)
@@ -1759,6 +1757,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 115.57) (xy 135.89 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "873432b8-e33f-4273-874a-a1b648570a3a")
+	)
+	(wire
+		(pts
 			(xy 161.29 78.74) (xy 163.83 78.74)
 		)
 		(stroke
@@ -1766,6 +1774,16 @@
 			(type default)
 		)
 		(uuid "8cde1801-a70f-4456-ac70-de2ff79dcbf9")
+	)
+	(wire
+		(pts
+			(xy 128.27 115.57) (xy 128.27 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cde9de9-a4fb-43d6-b8b6-c009c5724be6")
 	)
 	(wire
 		(pts
@@ -2023,8 +2041,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(at 135.89 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b4b66b4-cd5c-4a08-8145-228afac09a9e")
+		(property "Reference" "J8"
+			(at 135.89 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+			(at 135.89 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7051x"
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 135.89 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B1"
+			(uuid "c2801fbf-0852-41c9-837e-000acb036c18")
+		)
+		(pin "A4"
+			(uuid "1449d10f-7dd8-4574-b102-e1ee6ecaf791")
+		)
+		(pin "A8"
+			(uuid "ff840d2a-5588-49f2-b722-7762a66a18e7")
+		)
+		(pin "S1"
+			(uuid "6b9a3c88-7ca3-41f2-bffd-6ed76c964a52")
+		)
+		(pin "A5"
+			(uuid "0916ed6d-a168-4e47-a69d-261b3d7acac6")
+		)
+		(pin "A7"
+			(uuid "ac172f73-20dc-464b-af85-946b697b1795")
+		)
+		(pin "A9"
+			(uuid "3bbe8619-362c-4ce8-9c1c-5607872e699a")
+		)
+		(pin "B6"
+			(uuid "5d40058e-b95e-44ea-8e2c-e2da397a58b9")
+		)
+		(pin "A12"
+			(uuid "0e724e4a-4231-4b3f-9589-fd70e4623b95")
+		)
+		(pin "B5"
+			(uuid "087bcf6e-12d7-41e6-96e4-c576e986a919")
+		)
+		(pin "A6"
+			(uuid "8ea8113b-6fe9-43ed-a958-85fbe7be38b2")
+		)
+		(pin "B8"
+			(uuid "539b81ab-c3fd-474c-8573-3d9f13113a16")
+		)
+		(pin "B4"
+			(uuid "e6f45e47-b053-4a66-aa55-de0e6466c0db")
+		)
+		(pin "A1"
+			(uuid "40d87e17-e01b-4247-9e71-1d108820d7da")
+		)
+		(pin "B9"
+			(uuid "1c61ab19-db31-4e33-8ef3-bb923602819e")
+		)
+		(pin "B7"
+			(uuid "47fa2a9c-6cc2-4bc4-b12f-43fb890041de")
+		)
+		(pin "B12"
+			(uuid "2ef6c06b-1061-4487-9efe-5e1b3de433c4")
+		)
+		(instances
+			(project "carte_lidar"
+				(path "/8c7c486d-228e-4b66-b6d5-0b7cf34b4d2b/5cfb2dd4-2139-45de-9d20-4a120a5e9868"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 128.27 111.76 0)
+		(at 128.27 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2033,7 +2164,7 @@
 		(fields_autoplaced yes)
 		(uuid "361c9c2e-4d3b-4e13-8822-eceba329b58a")
 		(property "Reference" "#PWR037"
-			(at 128.27 118.11 0)
+			(at 128.27 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2042,7 +2173,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.27 116.84 0)
+			(at 128.27 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2050,7 +2181,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 111.76 0)
+			(at 128.27 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2059,7 +2190,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 111.76 0)
+			(at 128.27 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2068,7 +2199,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 128.27 111.76 0)
+			(at 128.27 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2291,121 +2422,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0")
-		(at 135.89 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "602e1a6b-f407-442a-bedf-ecd9e2bb5ac8")
-		(property "Reference" "J6"
-			(at 135.89 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_C_Receptacle_USB2.0"
-			(at 135.89 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
-			(at 139.7 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 139.7 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 135.89 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A1"
-			(uuid "6239d720-62a0-4e7d-b688-d6b831723af8")
-		)
-		(pin "A12"
-			(uuid "8565f15b-a5eb-4c27-bae1-4a4344636240")
-		)
-		(pin "A4"
-			(uuid "33716ef8-5d1b-42d0-9072-1c08fcab7e77")
-		)
-		(pin "A5"
-			(uuid "139b463b-4cba-4254-9872-adca581b792d")
-		)
-		(pin "A6"
-			(uuid "be6068cf-2473-4c8a-94d7-719b891628c5")
-		)
-		(pin "A7"
-			(uuid "3bc65a4a-73b0-4c92-add3-9a383b377908")
-		)
-		(pin "A8"
-			(uuid "c6729312-aace-4441-8529-6c96acd182da")
-		)
-		(pin "A9"
-			(uuid "2b2214ed-6901-4e2c-97d1-4d7b2fa2ad70")
-		)
-		(pin "B1"
-			(uuid "d7e29336-e11d-47e4-a5ca-95f19d2df13e")
-		)
-		(pin "B12"
-			(uuid "71ae3968-7eda-45c7-9edb-e219cd3c7ae5")
-		)
-		(pin "B4"
-			(uuid "19698694-0b4b-4603-a0a7-9fc0b06b706d")
-		)
-		(pin "B5"
-			(uuid "fceccb0e-b1e8-4d1c-b220-eee47078b062")
-		)
-		(pin "B6"
-			(uuid "cc3dba57-75aa-42b2-a1c9-0f2572e15b86")
-		)
-		(pin "B7"
-			(uuid "47e31c37-bea1-45a2-95cb-eec8de01ebf2")
-		)
-		(pin "B8"
-			(uuid "c018627f-d4c2-49c7-b3d6-5f186e2bb4c6")
-		)
-		(pin "B9"
-			(uuid "ae2c0b2e-658a-45fb-ab6f-4a4963bd149e")
-		)
-		(pin "S1"
-			(uuid "042f0cf2-67c3-4d5c-987b-ec6f4ba0f6fc")
-		)
-		(instances
-			(project "carte_lidar"
-				(path "/8c7c486d-228e-4b66-b6d5-0b7cf34b4d2b/5cfb2dd4-2139-45de-9d20-4a120a5e9868"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 135.89 111.76 0)
+		(at 135.89 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2414,7 +2432,7 @@
 		(fields_autoplaced yes)
 		(uuid "98fb3216-1dbb-418e-ad41-8f0b218e1074")
 		(property "Reference" "#PWR038"
-			(at 135.89 118.11 0)
+			(at 135.89 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2423,7 +2441,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 116.84 0)
+			(at 135.89 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2431,7 +2449,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 111.76 0)
+			(at 135.89 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2440,7 +2458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 111.76 0)
+			(at 135.89 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2449,7 +2467,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 111.76 0)
+			(at 135.89 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
