@@ -335,6 +335,145 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -794,6 +933,18 @@
 		)
 	)
 	(junction
+		(at 111.76 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0508064a-e962-404a-afbe-ae96806c1adb")
+	)
+	(junction
+		(at 111.76 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a9a0360-be95-4995-8e40-f3c3cc995226")
+	)
+	(junction
 		(at 101.6 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -871,6 +1022,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 63.5) (xy 139.7 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06d41521-0339-4706-9da6-b72eb40f5c8b")
+	)
+	(wire
+		(pts
 			(xy 87.63 58.42) (xy 101.6 58.42)
 		)
 		(stroke
@@ -888,16 +1049,6 @@
 			(type default)
 		)
 		(uuid "23b9d4ee-60ff-4d5f-9419-c38166094bd1")
-	)
-	(wire
-		(pts
-			(xy 101.6 66.04) (xy 111.76 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2579d1a0-a48c-4111-8276-38b24421f063")
 	)
 	(wire
 		(pts
@@ -981,6 +1132,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 66.04) (xy 111.76 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "917c8c32-af6e-4b3c-8abc-0141881eb0d8")
+	)
+	(wire
+		(pts
 			(xy 73.66 60.96) (xy 87.63 60.96)
 		)
 		(stroke
@@ -1008,6 +1169,16 @@
 			(type default)
 		)
 		(uuid "9efdf4be-b311-4139-bab5-aaae564516f1")
+	)
+	(wire
+		(pts
+			(xy 111.76 66.04) (xy 139.7 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3843a6a-910f-4730-b2e8-fbeaf8151252")
 	)
 	(wire
 		(pts
@@ -1642,6 +1813,76 @@
 			(project "carte_lidar"
 				(path "/8c7c486d-228e-4b66-b6d5-0b7cf34b4d2b/c630627c-1935-4d24-8774-1650507bc0db"
 					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 144.78 66.04 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1f5815c-2f65-4cfc-8fb9-e36816c2952b")
+		(property "Reference" "J13"
+			(at 147.32 66.0401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 147.32 63.5001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
+			(at 144.78 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 144.78 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ab1de11-76f3-41ca-9a47-b447ce4688eb")
+		)
+		(pin "2"
+			(uuid "710e5d1b-3b34-40d8-9e1c-d3f75711e2d2")
+		)
+		(instances
+			(project "carte_lidar"
+				(path "/8c7c486d-228e-4b66-b6d5-0b7cf34b4d2b/c630627c-1935-4d24-8774-1650507bc0db"
+					(reference "J13")
 					(unit 1)
 				)
 			)
